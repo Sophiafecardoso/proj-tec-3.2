@@ -1,10 +1,10 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
-    --botao-azul: #167BF7;
-    --cor-de-fundo: #00030C;
+    --rosa-principal: #fc87e8;
+    --cinza-secundario: #9c8383;
+    --botao-azul: #1a16f7;
+    --cor-de-fundo: #001450;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: #3c95fa;
 }
 
 body {
@@ -21,7 +21,7 @@ body {
 }
 
 .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -79,7 +79,7 @@ body {
 .descricao__titulo {
     font-weight: 700;
     font-size: 48px;
-    color: var(--branco-principal);
+    color: var(--cor-de-fundo);
     margin-bottom: 0.1em;
 }
 
@@ -131,7 +131,7 @@ body {
 
 .lista__link a{
     text-decoration: none;
-    color: var(--branco-principal);
+    color: var(--rosa-principal);
     margin-left: 1em;
 }
 
@@ -146,7 +146,7 @@ body {
 }
 
 .lista__link a:active {
-    color: pink;
+    color: palevioletred;
 }
 
 .container__botao:hover {
